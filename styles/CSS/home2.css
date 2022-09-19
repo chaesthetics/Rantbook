@@ -1,0 +1,45 @@
+
+td{
+    padding: 20px;  
+}
+section{
+    width: 45%;
+    float: left;
+    background: white;
+    margin-left: 280px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+   
+}
+
+.right{
+    width: 25%;
+    height: 75vh;
+    line-height: 80vh;
+    margin-left: 920px;
+    background: white;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin-top: 20px;
+    position: sticky;
+    -webkit-position:sticky;
+    top: 3.3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+}
+.main *{
+    border-radius: 10px;
+}
+.main{
+    margin: 10px 0px;
+}
+.main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* .fixed1{
+    position: fixed;
+    top: 3.2rem; 
+    z-index: 20;
+  } */
